@@ -60,9 +60,9 @@
 //         g =  getRandomInteger(0, 255),
 //         b =  getRandomInteger(0, 255);
     
-//     console.log(`rgb(${r},${g},${b})`);
+//     return `rgb(${r}, ${g}, ${b})`;
 // }
-// getRandomRGB();
+// console.log(getRandomRGB());
 
 // function getRandomInteger(min, max) {
 //     return Math.floor(Math.random() * (max - min)) + min;

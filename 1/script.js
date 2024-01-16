@@ -25,7 +25,7 @@
 // } else if (number < 0) {
 //     number = 'less then zero';
 // } else if (number > 0) {
-//     number += 10;
+//     number *= 10;
 // }
 
 // Task 6 
@@ -92,4 +92,3 @@
 //     } else {
 //         console.log(`Cтоимость аренды на запрашиваемое количество дней: ${totalPrice = day * priceOneDay}$`);
 //     }
-
