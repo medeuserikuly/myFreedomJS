@@ -20,13 +20,13 @@
 // }
 
 // Task 4 
-// let numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
+// const numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
 // for (let i = 0; i < numbers.length; i++) {
 //     console.log(`Индексу ${i} соответствует число ${numbers[i]}`)
 // }
 
 // Task 5
-// let questions = [
+// const questions = [
 //     {
 //         question: "What's the currency of the USA?",
 //         choices: ["US dollar", "Ruble", "Horses", "Gold"],
@@ -46,7 +46,7 @@
 // console.log(questions);
 
 // Tasl 6.1
-let numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
+// const numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
 // for (const key in numbers) {
 //     console.log(numbers[key]);
 // }
@@ -83,7 +83,7 @@ let numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
 // }
 
 // Task 7
-// let arr = [5, 4, 3, -3, -10, -1, 8, -20, 0],
+// const arr = [5, 4, 3, -3, -10, -1, 8, -20, 0],
 //     newArr = [];
 
 // for (const value of arr) {
@@ -95,7 +95,7 @@ let numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
 // console.log(newArr)
 
 // Task 8
-// let nums = [5, 4, 3, 8, 0],
+// const nums = [5, 4, 3, 8, 0],
 //     limit = 5,
 //     arr = [];
 // for (const value of nums) {
@@ -120,7 +120,7 @@ let numbers = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
 // }
 
 // Task 10.1
-// let vegetables = ["морковь", "баклажан", "репа", "топинамбур"],
+// const vegetables = ["морковь", "баклажан", "репа", "топинамбур"],
 //     arr = [];
 
 // for (const value of vegetables) {
