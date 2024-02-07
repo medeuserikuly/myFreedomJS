@@ -60,22 +60,22 @@
 
 // Task 5
 
-const btn = document.querySelector('button');
-btn.addEventListener('mouseenter', () => {
-    btn.style.backgroundColor = getRandomRGB();
-});
-btn.addEventListener('mouseleave', () => {
-    btn.style.transform = 'rotate(' + getRandomInteger(-180, 180) + 'deg)';
-});
+// const btn = document.querySelector('button');
+// btn.addEventListener('mouseenter', () => {
+//     btn.style.backgroundColor = getRandomRGB();
+// });
+// btn.addEventListener('mouseleave', () => {
+//     btn.style.transform = 'rotate(' + getRandomInteger(-180, 180) + 'deg)';
+// });
 
-function getRandomRGB() {
-    let r =  getRandomInteger(0, 255),
-        g =  getRandomInteger(0, 255),
-        b =  getRandomInteger(0, 255);
+// function getRandomRGB() {
+//     let r =  getRandomInteger(0, 255),
+//         g =  getRandomInteger(0, 255),
+//         b =  getRandomInteger(0, 255);
     
-    return `rgb(${r}, ${g}, ${b})`;
-}
+//     return `rgb(${r}, ${g}, ${b})`;
+// }
 
-function getRandomInteger(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
+// function getRandomInteger(min, max) {
+//     return Math.floor(Math.random() * (max - min)) + min;
+// }
