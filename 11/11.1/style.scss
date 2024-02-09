@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.gallery {
+    padding: 20px 20px;
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.image {
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.selected {
+    transform: scale(1.1);
+}
