@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.todoForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    input[type="text"] {
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #45a049;
+        }
+    }
+
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tbody {
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+
+
+        .actionButtons {
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+        
+
+            .editButton {
+                padding: 8px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #2196F3;
+                color: white;
+                &:hover {
+                    background-color: #1976D2;
+                }
+            }
+
+            .deleteButton {
+                padding: 8px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #f44336;
+                color: white;
+                &:hover {
+                    background-color: #D32F2F;
+                }
+            }
+        }
+    }
+}
+
+.statusSelect {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+
+    &:hover,
+    &:focus {
+        border-color: #66afe9;
+    }
+
+    option {
+        padding: 5px;
+    }
+}
+

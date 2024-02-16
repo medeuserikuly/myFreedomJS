@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 50px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.todoForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.todoForm input[type=text] {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.todoForm button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.todoForm button:hover {
+  background-color: #45a049;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.table th {
+  background-color: #4CAF50;
+  color: white;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+.table tbody .actionButtons {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+.table tbody .actionButtons .editButton {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+}
+.table tbody .actionButtons .editButton:hover {
+  background-color: #1976D2;
+}
+.table tbody .actionButtons .deleteButton {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+}
+.table tbody .actionButtons .deleteButton:hover {
+  background-color: #D32F2F;
+}
+
+.statusSelect {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+}
+.statusSelect:hover, .statusSelect:focus {
+  border-color: #66afe9;
+}
+.statusSelect option {
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
