@@ -125,3 +125,4 @@ class Circle {
 
 const circle = new Circle(100, 100, 'yellow');
 circle.render();
+
